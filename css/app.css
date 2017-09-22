@@ -132,7 +132,10 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.3); } }
+    background-color: rgba(0, 0, 0, 0.3); }
+
+  .imageBox {
+    margin: 2rem 0; } }
 .cover {
   width: 100%;
   height: 48rem;
@@ -186,6 +189,12 @@ a {
   font-weight: 700;
   color: #eee; }
 
+#head5 {
+  color: #555;
+  margin-bottom: 5rem;
+  font-weight: 700;
+  font-size: 5rem; }
+
 .about p {
   text-align: center;
   font-size: 1.8rem;
@@ -193,5 +202,30 @@ a {
 
 .init {
   margin: 4rem; }
+
+.imageBox {
+  position: relative;
+  overflow: hidden; }
+  .imageBox img {
+    width: 100%; }
+  .imageBox:hover .textBox {
+    bottom: 0; }
+
+.textBox {
+  position: absolute;
+  bottom: -60%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(41, 136, 105, 0.7);
+  transition: .5s; }
+
+.textBox h2 {
+  color: #fff;
+  margin: 5rem 0; }
+
+.textBox p {
+  margin: 0 2rem;
+  color: #ddd; }
 
 /*# sourceMappingURL=app.css.map */
